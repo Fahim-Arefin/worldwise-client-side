@@ -27,12 +27,12 @@ function CityItem({ city }) {
           hit the route cities/:id with query string
       */}
       <div
-        className={`mb-4 bg-[#42484d] p-2 rounded-lg border-l-8  border-[#00c46a] flex justify-around 
-        items-center cursor-pointer ${
+        className={`mb-4 bg-[#42484d] p-2 rounded-lg border-l-8  border-[#00c46a]
+        flex flex-col md:flex-row justify-around items-center cursor-pointer ${
           currentCity._id === city._id ? "border-2" : ""
         }`}
       >
-        <div className="flex w-20 justify-between">
+        <div className="flex w-full md:w-20 justify-center md:justify-between">
           <div>{city.emoji}</div>
           <div className="ml-4">{city.cityName}</div>
         </div>

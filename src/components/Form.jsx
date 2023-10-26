@@ -118,7 +118,7 @@ function Form() {
             />
             <span className="m-0">{emoji}</span>
           </div>
-          <div className=" flex flex-col items-start">
+          <div className="flex flex-col items-start">
             <label className="font-semibold mb-1" htmlFor="date">
               When did you go to {cityName}?
             </label>
@@ -129,13 +129,15 @@ function Form() {
               className="w-full px-4 py-2 rounded-lg outline-none text-[#2d3439]"
             /> */}
             {/* install and read doc */}
-            <DatePicker
-              id="date"
-              selected={date}
-              onChange={(date) => setDate(date)}
-              dateFormat="Pp"
-              className="min-w-[400px] flex-1 px-4 py-2 rounded-lg outline-none text-[#2d3439]"
-            />
+            <div className="w-full">
+              <DatePicker
+                id="date"
+                selected={date}
+                onChange={(date) => setDate(date)}
+                dateFormat="Pp"
+                className="md:w-[600px] lg:w-[300px] 2xl:w-[400px] px-4 py-2 rounded-lg outline-none text-[#2d3439]"
+              />
+            </div>
           </div>
           <div className="flex flex-col items-start">
             <label className="font-semibold mb-1" htmlFor="notes">

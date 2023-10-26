@@ -20,7 +20,7 @@ function Countries() {
       {isLoading ? (
         <Spinner />
       ) : filteredCity.length ? (
-        filteredCity.map((city) => <CountryItem city={city} key={city.id} />)
+        filteredCity.map((city) => <CountryItem city={city} key={city._id} />)
       ) : (
         "please add cities by clicking on the map"
       )}

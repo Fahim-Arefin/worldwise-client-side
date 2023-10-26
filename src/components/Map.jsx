@@ -36,14 +36,14 @@ function Map() {
       setMapPosition([position.lat, position.lng]);
     }
   }, [position]);
-
+  // left-[40%] xl:left-[45%]
   return (
     <div className="relative w-full h-[500px] lg:flex-1 lg:h-screen">
       {!position && (
         <Button
           onClick={getPosition}
           success
-          className="absolute z-30 top-3/4 left-[40%] xl:left-[45%] rounded-lg font-bold"
+          className="w-fit mx-auto absolute z-30 top-3/4 left-1/3 md:inset-x-0 rounded-lg font-bold"
         >
           {isLoading ? "loading..." : "use your location"}
         </Button>

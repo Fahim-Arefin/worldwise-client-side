@@ -4,10 +4,12 @@ import Logo from "./Logo";
 
 function PageNav({ className }) {
   return (
-    <div className={`flex justify-around ${className}`}>
-      <Logo />
+    <div
+      className={`flex flex-col space-y-10 md:space-y-0 md:flex-row justify-around ${className}`}
+    >
+      <Logo className=" w-fit mx-auto md:mx-0" />
       <ul
-        className={`flex justify-around w-[50%] lg:w-[30%] text-white items-center ${styles.nav}`}
+        className={`flex justify-around w-full md:w-[50%] lg:w-[30%] text-white items-center ${styles.nav}`}
       >
         <li>
           <NavLink to="/pricing">PRICING</NavLink>
