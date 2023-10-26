@@ -44,7 +44,7 @@ function reducer(state, action) {
       ...state,
       isLoading: false,
       currentCity: {},
-      cities: state.cities.filter((city) => city.id !== action.payload),
+      cities: state.cities.filter((city) => city._id !== action.payload),
     };
   }
   if (action.type === "rejected") {
