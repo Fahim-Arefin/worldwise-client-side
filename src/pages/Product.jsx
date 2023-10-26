@@ -15,12 +15,11 @@ function Product() {
         <div className="lg:w-[50%] lg:p-12 xl:p-32 text-center text-white flex flex-col justify-center">
           <h1 className="text-3xl mt-12 font-semibold">About World Wise</h1>
           <p className="w-[85%] pb-24 md:w-[80%] mx-auto xl:text-xl text-lg mt-10 text-[#aaa]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis? Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Corporis doloribus libero sunt expedita ratione iusto, magni,
-            id sapiente sequi officiis et.
+            WorldWise is a tracking website where a user can add the city
+            details that he is visited recently by finding it in a world map.A
+            map is provided to user to find exact locations. User can create a
+            city with the date he visited.He can see the cities,also he can
+            remove from visited city list.
           </p>
         </div>
       </section>

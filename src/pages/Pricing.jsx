@@ -13,9 +13,9 @@ function Pricing() {
             Just $9/month.
           </h2>
           <p className="w-full md:w-[80%] mx-auto xl:text-xl text-[#aaa]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
+            Our pricing is designed to be straightforward and affordable. For
+            just $9 per month, you get access to all our premium features. No
+            hidden fees or surprises.
           </p>
         </div>
         <div className="">
