@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "cityName": "Savar Upazila",
+      "country": "Bangladesh",
+      "emoji": "🇧🇩",
+      "date": "2023-10-26T13:45:24.296Z",
+      "notes": "rasdsa",
+      "position": {
+        "lat": "23.911341067887246",
+        "lng": "90.26053905487062"
+      },
+      "id": 73930390
+    }
+  ]
+}
