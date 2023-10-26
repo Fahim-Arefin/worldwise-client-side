@@ -58,7 +58,7 @@ function reducer(state, action) {
 
 function CitiesProvider({ children }) {
   // const BASE_URL = "http://localhost:3001";
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://worldwise-server-side.vercel.app";
 
   const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
